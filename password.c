@@ -16,7 +16,8 @@ int main () {
 	srand(time(NULL));
 	}
 	else {
-	printf("Not a valid answer");
+	printf("Not a valid answer\n");
+	return 0;
 	}
 	printf("Enter lenghth of your desired password: ");
 	scanf("%d", &len);
